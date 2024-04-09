@@ -21,15 +21,19 @@ Add Heimdall as a dependency in your pom.xml or build.gradle file. Build the cod
 <br>`</dependency>`
 
 Configure the email settings and logging preferences in your application properties file as below:
-  <br>`email.host=<your host> eg:smtp.elasticemail.com`
-  <br>`email.port=<your port> #eg:2525`
+  <br>`#configure your host, for e.g. smtp.elasticemail.com`
+  <br>`email.host=<your host>`
+  <br>`#configure port, for e.g. 2525`
+  <br>`email.port=<your port>`
   <br>`email.username=<your username here>`
   <br>`email.password=<your password here>`
   <br>`email.from = system@example.com`
   <br>`email.to=support1@example.com,support2@example.com`
   <br>`email.subject=Error Alert`
+  <br>`#configure your queue size, old logs from the queue will get polled if it reaches the size. Default is 1000 `
   <br>`log.queue.size=100`
-  <br>`log.print=true`
+  <br>`#configure as true if method logs needs to be printed to standard output. Default is false`
+  <br>`log.print=true` 
 
 Annotate classes with @EnableHeimdall to enable monitoring and alerting as below:
 <br>`@RestController`
