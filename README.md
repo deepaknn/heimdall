@@ -51,4 +51,4 @@ Once Heimdall is integrated into your project, it automatically monitors method 
 Contributions to Heimdall are welcome! If you encounter any issues or have ideas for improvements, please submit a pull request or open an issue on our GitHub repository.
 
 ## Contact
-For questions, feedback, or support, please contact deepaknnofficial@gmail.com or visit our GitHub repository for additional resources.
+For questions, feedback, or support, please contact deepaknnofficial@gmail.com or visit our GitHub repository https://github.com/deepaknn/heimdall for additional resources.
