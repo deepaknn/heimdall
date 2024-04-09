@@ -1,5 +1,7 @@
-# Heimdall - All Seeing and All Hearing
-## Monitoring and Alerting Aspect for Spring Boot
+<p align="center" width="100%"><img src="logo.png" width="180" height="250"></p>
+<h1 align="center">Heimdall - All Seeing and All Hearing</h1>
+
+## Monitoring and Alerting Project for Spring Boot
 ### Heimdall is a monitoring and alerting aspect oriented programming library for Spring Boot applications. It allows you to log method calls, capture method arguments and return values, and send email alerts for errors. With Heimdall, you can monitor your application's behavior and receive notifications about critical issues in real-time.
 
 ## Features
